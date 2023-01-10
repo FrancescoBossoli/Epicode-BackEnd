@@ -7,7 +7,7 @@ public class Store {
 		private String codice;
 		private String descrizioneArticolo;
 		private double prezzo;
-		private int numeroPezzi;
+		private int numeroPezzi; 
 		
 		public Articolo(String cod, String descrizione, double prezzo) {
 			this.codice =cod;
