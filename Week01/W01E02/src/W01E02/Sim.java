@@ -1,4 +1,4 @@
-package W02E02;
+package W01E02;
 
 public class Sim {
 	private String numero;
