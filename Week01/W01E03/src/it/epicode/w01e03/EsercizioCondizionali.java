@@ -1,4 +1,4 @@
-package it.epicode.w03e01;
+package it.epicode.w01e03;
 
 public class EsercizioCondizionali {
 	public static boolean pariDispari(String s) {
