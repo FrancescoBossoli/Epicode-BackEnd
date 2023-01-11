@@ -19,5 +19,6 @@ public class EsercizioWhile {
 		Scanner input = new Scanner(System.in);
 		s = input.nextLine();
 		}
+		
 	}
 }

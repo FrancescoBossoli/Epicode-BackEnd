@@ -23,6 +23,7 @@ public class EsercizioSwitch {
 		// TODO Auto-generated method stub
 		System.out.println("Inserisci un numero intero");
 		Scanner input = new Scanner(System.in);
-		System.out.println(stampa(input.nextInt()));		
+		System.out.println(stampa(input.nextInt()));
+		input.close();
 	}
 }
