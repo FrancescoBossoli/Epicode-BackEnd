@@ -1,0 +1,6 @@
+package elements;
+
+public class MultimediaElement {
+
+	protected String title;
+}

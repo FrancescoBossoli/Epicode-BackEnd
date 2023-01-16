@@ -1,0 +1,9 @@
+package elements;
+
+import interfaces.Brightness;
+
+public abstract class WatchableElement implements Brightness {
+
+	protected int brightness = 5;
+	
+}

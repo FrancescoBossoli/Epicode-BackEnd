@@ -1,0 +1,8 @@
+package elements;
+
+import interfaces.Volume;
+
+public abstract class PlayableElement extends MultimediaElement implements Volume {
+
+	
+}

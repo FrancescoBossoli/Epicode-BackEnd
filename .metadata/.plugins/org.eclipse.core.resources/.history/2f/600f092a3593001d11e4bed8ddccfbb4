@@ -1,0 +1,25 @@
+package interfaces;
+
+public interface Volume {
+	
+
+	public int volume = 5;
+	
+	public default void volumeUp() {
+		if (this.volume != 10) {
+			this.volume++;
+		} else {
+			System.out.println("Il volume è già al massimo");
+		}
+		System.out.println("Volume Impostato: " + volume*10 + "%");
+	}
+	
+	public default void volumeDown() {
+		if (this.volume != 0) {
+			this.volume--;
+		} else {
+			System.out.println("Il volume è già al minimo");
+		}
+		System.out.println("Volume Impostato: " + volume*10 + "%");
+	}
+}

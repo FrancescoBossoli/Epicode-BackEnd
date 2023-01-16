@@ -1,0 +1,10 @@
+package interfaces;
+
+public interface Brightness {
+
+	public int brightness = 5;
+	
+	public void brightnessUp();
+	
+	public void brightnessDown();
+}

@@ -1,0 +1,7 @@
+package elements;
+
+import interfaces.Brightness;
+
+public class Image implements Brightness {
+
+}

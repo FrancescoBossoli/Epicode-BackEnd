@@ -1,0 +1,12 @@
+package interfaces;
+
+public interface Volume {
+
+	public int volume = 5;
+	
+	public void volumeUp() {
+		this.volume++;
+	};
+	
+	public void volumeDown(int n);
+}

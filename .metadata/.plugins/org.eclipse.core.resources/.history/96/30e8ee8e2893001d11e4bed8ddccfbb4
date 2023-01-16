@@ -1,0 +1,17 @@
+package elements;
+
+import interfaces.Volume;
+
+public abstract class PlayableElement extends MultimediaElement implements Volume {
+
+	public int volume = 5;
+	
+	public void volumeUp() {
+		if (this.volume != 10) {
+			this.volume++;
+		} else {
+			System.out.println("Il volume è già al massimo");
+		}
+		System.out.println("Volume impostato al " + volume*10 + "%");
+	}
+}
