@@ -65,5 +65,6 @@ public class NumberList {
 		System.out.println("Numeri generati di indice dispari dell'ultima lista: ");
 		System.out.println(stampaMetàValori(numeriCasuali, false));
 		input.close();
+		System.out.println(Collections.max(numeriCasuali));
 	}
 }
