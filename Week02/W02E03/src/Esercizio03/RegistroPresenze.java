@@ -47,5 +47,4 @@ public class RegistroPresenze {
 			leggiDaFile();
 		} catch (IOException e) {}
 	}
-
 }
